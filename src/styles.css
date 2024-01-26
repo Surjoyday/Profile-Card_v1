@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.card {
+  background-color: #f7ede2;
+  margin: 1.5rem;
+  width: 450px;
+  border: 4px solid black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+}
+
+.data {
+  text-align: justify;
+  padding: 32px;
+  padding-top: 24px;
+}
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
